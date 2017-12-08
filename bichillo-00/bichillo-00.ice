@@ -107,6 +107,61 @@
           }
         },
         {
+          "id": "a16ffec0-08b1-436c-bbbb-2a8077607bd1",
+          "type": "basic.output",
+          "data": {
+            "name": "DEBUG",
+            "range": "[7:0]",
+            "pins": [
+              {
+                "index": "7",
+                "name": "GP7",
+                "value": "50"
+              },
+              {
+                "index": "6",
+                "name": "GP6",
+                "value": "49"
+              },
+              {
+                "index": "5",
+                "name": "GP5",
+                "value": "43"
+              },
+              {
+                "index": "4",
+                "name": "GP4",
+                "value": "42"
+              },
+              {
+                "index": "3",
+                "name": "GP3",
+                "value": "41"
+              },
+              {
+                "index": "2",
+                "name": "GP2",
+                "value": "39"
+              },
+              {
+                "index": "1",
+                "name": "GP1",
+                "value": "38"
+              },
+              {
+                "index": "0",
+                "name": "GP0",
+                "value": "37"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 1056,
+            "y": 600
+          }
+        },
+        {
           "id": "627e8110-eaef-4a1e-92ab-550b6180e99c",
           "type": "basic.info",
           "data": {
@@ -363,15 +418,32 @@
             "block": "5d6f3d00-9649-48f3-bdc8-2559fcc391a8",
             "port": "30bde887-830b-4c29-aa25-b5f457ef70e4"
           }
+        },
+        {
+          "source": {
+            "block": "859efcc3-bb9c-46fb-8db1-7e0bca904658",
+            "port": "pc"
+          },
+          "target": {
+            "block": "a16ffec0-08b1-436c-bbbb-2a8077607bd1",
+            "port": "in"
+          },
+          "vertices": [
+            {
+              "x": 504,
+              "y": 656
+            }
+          ],
+          "size": 8
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 508.4371,
-        "y": -14.4492
+        "x": 393.5,
+        "y": -128.5
       },
-      "zoom": 0.8738
+      "zoom": 1
     }
   },
   "dependencies": {
